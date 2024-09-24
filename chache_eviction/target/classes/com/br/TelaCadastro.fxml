@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #67595E;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.br.controller.CadastroController">
+   <children>
+      <TextField fx:id="name" layoutX="200.0" layoutY="160.0" prefHeight="25.0" prefWidth="200.0" promptText="Nome" />
+      <Text fill="#eed6d3" layoutX="107.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+         <font>
+            <Font name="Californian FB" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#eed6d3" layoutX="129.0" layoutY="66.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro de Ordens de Serviço" textAlignment="CENTER" wrappingWidth="342.49652099609375">
+         <font>
+            <Font name="Californian FB Bold" size="42.0" />
+         </font>
+      </Text>
+      <Text fill="#eed6d3" layoutX="107.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descrição">
+         <font>
+            <Font name="Californian FB" size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="description" layoutX="200.0" layoutY="189.0" prefHeight="112.0" prefWidth="200.0" promptText="Descrição" wrapText="true" />
+      <Text fx:id="error" fill="#ff2222" layoutX="248.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome ou descrição inválidos" textAlignment="CENTER" textOrigin="CENTER" underline="true" visible="false" wrappingWidth="103.5859375" />
+      <Button fx:id="cancel" layoutX="221.0" layoutY="343.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: #A49393;" text="Cancelar" textFill="#eed6d3" />
+      <Button fx:id="confirm" layoutX="310.0" layoutY="343.0" mnemonicParsing="false" onAction="#create" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: #A49393;" text="Confirmar" textFill="#eed6d3" />
+   </children>
+</Pane>

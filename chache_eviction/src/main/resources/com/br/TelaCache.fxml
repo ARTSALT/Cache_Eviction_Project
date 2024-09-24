@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #67595E;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.br.controller.CacheController">
+   <children>
+      <TableView fx:id="table" layoutX="90.0" layoutY="90.0" prefHeight="296.0" prefWidth="421.0" style="-fx-background-color: #A49393;">
+         <columns>
+            <TableColumn fx:id="code" prefWidth="61.60003662109375" text="Código" />
+            <TableColumn fx:id="name" prefWidth="119.199951171875" text="Nome" />
+            <TableColumn fx:id="description" prefWidth="114.39996337890625" text="Descrição" />
+            <TableColumn fx:id="solTime" prefWidth="124.79998779296875" text="Hora da Solicitação" />
+         </columns>
+      </TableView>
+      <TextField fx:id="searchBar" layoutX="120.0" layoutY="61.0" onAction="#search" />
+      <ImageView fx:id="searchButton" accessibleHelp="Pesquisar" fitHeight="32.0" fitWidth="40.0" layoutX="90.0" layoutY="58.0" onMouseClicked="#search" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Search_Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="viewButton" accessibleHelp="Deletar" fitHeight="25.0" fitWidth="30.0" layoutX="518.0" layoutY="361.0" onMouseClicked="#view" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/View_Icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="viewTable" accessibleHelp="Deletar" fitHeight="25.0" fitWidth="30.0" layoutX="518.0" layoutY="328.0" onMouseClicked="#toTable" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/View_Log_Icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

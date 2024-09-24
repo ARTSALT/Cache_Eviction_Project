@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #67595E;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.br.controller.ViewController">
+   <children>
+      <Text fill="#eed6d3" layoutX="129.0" layoutY="59.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Visualização de Ordem de Serviço" textAlignment="CENTER" wrappingWidth="342.49652099609375">
+         <font>
+            <Font name="Californian FB Bold" size="42.0" />
+         </font>
+      </Text>
+      <Text fill="#eed6d3" layoutX="84.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+         <font>
+            <Font name="Californian FB" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#eed6d3" layoutX="84.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descrição">
+         <font>
+            <Font name="Californian FB" size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="description" editable="false" layoutX="165.0" layoutY="200.0" prefHeight="150.0" prefWidth="342.0" />
+      <Button fx:id="back" layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#goBack" text="Voltar" />
+      <Text fill="#eed6d3" layoutX="84.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data de Inserção">
+         <font>
+            <Font name="Californian FB" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="name" editable="false" layoutX="224.0" layoutY="135.0" prefHeight="25.0" prefWidth="282.0" />
+      <TextField fx:id="time" editable="false" layoutX="224.0" layoutY="166.0" prefHeight="25.0" prefWidth="282.0" />
+   </children>
+</Pane>
