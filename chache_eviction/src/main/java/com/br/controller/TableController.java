@@ -4,7 +4,8 @@ import java.io.IOException;
 import java.util.List;
 
 import com.br.App;
-import com.br.entity.Database;
+import com.br.connections.ConnectionProxy;
+import com.br.entity.Packet;
 import com.br.entity.ServiceOrder;
 
 import javafx.fxml.FXML;
@@ -37,7 +38,7 @@ public class TableController {
 
     private void updateTable(List<ServiceOrder> e) {
         table.getItems().setAll(e);
-        number.setText(Database.database.elements() + " Ordens");
+        number.setText(e.size() + " Ordens");
     }
 
     private void updateTable(ServiceOrder e) {
@@ -45,7 +46,14 @@ public class TableController {
     }
 
     private void loadAll() {
-        updateTable(Database.returnAll());
+        try {
+            Packet<?> list = ConnectionProxy.sendRequest("getAll", null);
+            if (list.getPurpose().equals("1")) {
+                updateTable((List<ServiceOrder>) list.getContent());
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     @FXML
@@ -53,7 +61,15 @@ public class TableController {
         if (searchBar.getText().isEmpty()) {
             loadAll();
         } else {
-            updateTable(Database.search(new ServiceOrder(Integer.parseInt(searchBar.getText()))));
+            try {
+                Packet<?> result = ConnectionProxy.sendRequest("search",
+                        new ServiceOrder(Integer.parseInt(searchBar.getText()), "", ""));
+                if (result.getPurpose().equals("1")) {
+                    updateTable((ServiceOrder) result.getContent());
+                }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
         }
     }
 
@@ -65,9 +81,14 @@ public class TableController {
     @FXML
     private void delete() {
         if (table.getSelectionModel().getSelectedItem() != null) {
-            Database.remove(table.getSelectionModel().getSelectedItem());
-
-            loadAll();
+            try {
+                Packet<?> result = ConnectionProxy.sendRequest("remove", table.getSelectionModel().getSelectedItem());
+                if (result.getPurpose().equals("1")) {
+                    loadAll();
+                }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
         }
     }
 
@@ -84,12 +105,7 @@ public class TableController {
         ServiceOrder e = table.getSelectionModel().getSelectedItem();
 
         if (e != null) {
-            App.telaView(e, 1);
+            App.telaView(e);
         } 
-    }
-
-    @FXML
-    private void toCache() throws IOException {
-        App.telaCache();
     }
 }

@@ -3,9 +3,7 @@ package com.br.controller;
 import java.io.IOException;
 
 import com.br.App;
-import com.br.entity.Database;
-import com.br.entity.ServiceOrder;
-
+import com.br.connections.ConnectionProxy;
 import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -20,22 +18,14 @@ public class LoginController {
     PasswordField password;
 
     @FXML
-    Text error;
+    public static Text error;
     
     @FXML
     private void login() throws IOException{
         String nome = username.getText();
         String senha = password.getText();
 
-        if ((nome.equals("Artur") && senha.equals("12345")) || (nome.equals("Paulo") && senha.equals("56789"))) {
-
-            for (int i = 1; i <= 60; i++) {
-                Database.insert(new ServiceOrder(String.valueOf(i), String.valueOf(i)));
-            }
-
-            App.telaTabela();
-        } else {
-            error.setVisible(true);
-        }
+        ConnectionProxy conection = new ConnectionProxy(App.enderecoProxy[0],
+                Integer.parseInt(App.enderecoProxy[1]), nome, senha);
     }
 }

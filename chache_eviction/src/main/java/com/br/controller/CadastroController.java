@@ -3,7 +3,7 @@ package com.br.controller;
 import java.io.IOException;
 
 import com.br.App;
-import com.br.entity.Database;
+import com.br.connections.ConnectionProxy;
 import com.br.entity.ServiceOrder;
 
 import javafx.fxml.FXML;
@@ -18,13 +18,11 @@ public class CadastroController {
     @FXML Text error;
 
     @FXML
-    private void create() throws IOException {
+    private void create() throws IOException, ClassNotFoundException {
         String nome = name.getText();
         String descricao = description.getText();
         if((!nome.isEmpty() && !nome.equals("⠀")) && (!descricao.isEmpty() && !descricao.equals("⠀"))) {
-            ServiceOrder e = new ServiceOrder(name.getText(), description.getText());
-
-            Database.insert(e);
+            ConnectionProxy.sendRequest("insert", new ServiceOrder(nome, descricao));
             App.telaTabela();
         } else {
             error.setVisible(true);

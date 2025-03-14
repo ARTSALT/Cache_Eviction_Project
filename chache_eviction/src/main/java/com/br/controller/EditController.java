@@ -3,7 +3,7 @@ package com.br.controller;
 import java.io.IOException;
 
 import com.br.App;
-import com.br.entity.Database;
+import com.br.connections.ConnectionProxy;
 import com.br.entity.ServiceOrder;
 
 import javafx.fxml.FXML;
@@ -25,21 +25,18 @@ public class EditController {
     }
 
     @FXML
-    private void edit() throws IOException {
+    private void edit() throws IOException, ClassNotFoundException {
         String nome = name.getText();
         String descricao = description.getText();
 
         if ((!nome.isEmpty() && !nome.equals("⠀")) && (!descricao.isEmpty() && !descricao.equals("⠀"))) {
-            ServiceOrder e = new ServiceOrder(original.getCode(), nome, descricao);
-            Database.subistitute(e);
+            ConnectionProxy.sendRequest("update", new ServiceOrder(original.getCode(), nome, descricao));
+            App.telaTabela();
         }
-
-        App.telaTabela();
     }
 
     @FXML
     private void delete() throws IOException {
-        Database.subistitute(original);
         App.telaTabela();
     }
 }

@@ -44,11 +44,6 @@
             <Image url="@images/View_Icon.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="viewCache" accessibleHelp="Deletar" fitHeight="25.0" fitWidth="30.0" layoutX="518.0" layoutY="328.0" onMouseClicked="#toCache" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@images/View_Log_Icon.png" />
-         </image>
-      </ImageView>
       <Text fx:id="number" fill="#eed6d3" layoutX="418.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N° de ordens">
          <font>
             <Font name="Californian FB" size="18.0" />

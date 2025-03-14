@@ -14,22 +14,15 @@ public class ViewController {
     @FXML TextField name;
     @FXML TextField time;
     @FXML TextArea description;
-    int ret;
 
-    public void initialize(ServiceOrder e, int ret) {
+    public void initialize(ServiceOrder e) {
         name.setText(e.getName());
         time.setText(e.getSolTime());
         description.setText(e.getDescription());
-        this.ret = ret;
     }
 
     @FXML
     public void goBack() throws IOException {
-        if (ret == 1) {
             App.telaTabela();
-        } else {
-            App.telaCache();
-        }
-        
     }
 }

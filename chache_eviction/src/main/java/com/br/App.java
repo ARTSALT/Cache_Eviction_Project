@@ -1,11 +1,13 @@
 package com.br;
 
 import java.io.IOException;
+import java.net.InetAddress;
 
 import com.br.controller.EditController;
 import com.br.controller.ViewController;
 import com.br.entity.ServiceOrder;
 
+import com.br.connections.ConnectionLocal;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,7 +19,9 @@ import javafx.stage.Stage;
  */
 public class App extends Application {
 
-    private static Stage stage;
+    public static Stage stage;
+    public volatile static boolean running = true;
+    public static String[] enderecoProxy = new String[2];
 
     public void setStage(Stage stage)
     {
@@ -27,8 +31,21 @@ public class App extends Application {
     public Stage getStage()
     {return stage;}
 
-    public static void main (String[] args)
-    {
+    public static void main (String[] args) throws Exception {
+        tryConnection(InetAddress.getLocalHost().getHostAddress(), 12345);
+
+        launchApp(args);
+        stage.setOnCloseRequest(running -> {
+            App.running = false;
+        });
+    }
+
+    public static void tryConnection(String ip, int porta) throws Exception {
+        ConnectionLocal connection = new ConnectionLocal(ip, porta);
+        enderecoProxy = connection.connect();
+    }
+
+    public static void launchApp(String[] args) {
         launch(args);
     }
 
@@ -80,12 +97,12 @@ public class App extends Application {
     }
 
     @SuppressWarnings("exports")
-    public static void telaView(ServiceOrder e, int ret) throws IOException {
+    public static void telaView(ServiceOrder e) throws IOException {
         FXMLLoader loader = new FXMLLoader(App.class.getResource("TelaView.fxml"));
         Parent root = loader.load();
 
         ViewController controller = loader.getController();
-        controller.initialize(e, ret);
+        controller.initialize(e);
 
         Scene telaView = new Scene(root);
         stage.setScene(telaView);

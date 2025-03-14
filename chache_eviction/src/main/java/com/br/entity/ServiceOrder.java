@@ -1,9 +1,15 @@
 package com.br.entity;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
-public final class ServiceOrder {
+public final class ServiceOrder implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
+
     static int counter = 0;
     int code;
     String name, description;
@@ -58,5 +64,20 @@ public final class ServiceOrder {
     }
     public String getSolTime() {
         return this.solTime;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ServiceOrder that = (ServiceOrder) o;
+        return Objects.equals(code, that.code) &&
+                Objects.equals(name, that.name) &&
+                Objects.equals(description, that.description);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(code, description);
     }
 }
