@@ -1,0 +1,64 @@
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 4 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 4 ==================================
+ Tipo de Operação: search
+ 
+ 

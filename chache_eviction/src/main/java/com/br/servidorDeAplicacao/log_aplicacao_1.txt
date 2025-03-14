@@ -1,0 +1,2092 @@
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 4 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 5 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 6 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 7 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 8 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 9 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 10 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 11 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 12 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 13 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 14 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 15 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 16 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 17 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 18 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 19 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 20 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 21 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 22 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 23 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 24 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 25 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 26 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 27 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 28 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 29 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 30 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 31 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 32 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 33 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 34 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 35 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 36 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 37 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 38 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 39 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 40 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 41 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 42 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 43 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 44 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 45 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 46 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 47 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 48 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 49 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 50 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 51 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 52 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 53 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 54 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 55 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 56 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 57 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 58 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 59 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 60 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 61 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 62 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 63 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 64 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 65 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 66 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 67 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 68 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 69 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 70 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 71 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 72 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 73 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 74 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 75 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 76 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 77 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 78 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 79 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 80 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 81 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 82 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 83 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 84 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 85 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 86 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 87 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 88 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 89 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 90 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 91 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 92 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 93 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 94 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 95 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 96 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 97 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 98 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 99 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 100 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 101 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 102 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 103 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 104 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 4 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 5 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 6 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 7 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 8 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 9 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 10 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 11 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 12 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 13 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 14 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 15 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 16 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 17 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 18 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 19 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 20 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 21 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 22 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 23 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 24 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 25 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 26 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 27 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 28 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 29 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 30 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 31 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 32 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 33 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 34 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 35 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 36 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 37 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 38 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 39 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 40 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 41 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 42 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 43 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 44 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 45 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 46 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 47 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 48 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 49 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 50 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 51 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 52 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 53 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 54 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 55 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 56 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 57 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 58 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 59 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 60 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 61 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 62 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 63 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 64 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 65 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 66 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 67 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 68 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 69 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 70 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 71 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 72 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 73 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 74 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 75 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 76 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 77 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 78 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 79 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 80 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 81 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 82 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 83 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 84 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 85 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 86 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 87 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 88 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 89 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 90 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 91 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 92 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 93 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 94 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 95 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 96 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 97 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 98 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 99 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 100 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 101 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 102 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 103 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 104 ==================================
+ Tipo de Operação: update
+ 
+ 
+ Log 105 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 106 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 4 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 5 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 6 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 7 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 8 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 9 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 10 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 11 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 12 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 13 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 14 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 15 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 16 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 17 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 18 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 19 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 20 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 21 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 22 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 23 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 24 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 25 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 26 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 27 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 28 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 29 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 30 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 31 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 32 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 33 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 34 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 35 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 36 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 37 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 38 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 39 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 40 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 41 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 42 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 43 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 44 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 45 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 46 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 47 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 48 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 49 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 50 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 51 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 52 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 53 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 54 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 55 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 56 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 57 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 58 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 59 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 60 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 61 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 62 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 63 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 64 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 65 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 66 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 67 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 68 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 69 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 70 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 71 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 72 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 73 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 74 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 75 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 76 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 77 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 78 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 79 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 80 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 81 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 82 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 83 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 84 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 85 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 86 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 87 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 88 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 89 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 90 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 91 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 92 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 93 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 94 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 95 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 96 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 97 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 98 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 99 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 100 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 101 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 102 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 103 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 104 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 105 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 4 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 5 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 6 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 7 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 8 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 9 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 10 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 11 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 12 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 13 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 14 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 15 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 16 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 17 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 18 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 19 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 20 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 21 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 22 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 23 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 24 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 25 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 26 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 27 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 28 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 29 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 30 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 31 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 32 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 33 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 34 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 35 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 36 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 37 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 38 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 39 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 40 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 41 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 42 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 43 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 44 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 45 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 46 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 47 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 48 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 49 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 50 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 51 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 52 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 53 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 54 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 55 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 56 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 57 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 58 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 59 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 60 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 61 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 62 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 63 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 64 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 65 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 66 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 67 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 68 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 69 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 70 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 71 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 72 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 73 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 74 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 75 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 76 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 77 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 78 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 79 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 80 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 81 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 82 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 83 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 84 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 85 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 86 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 87 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 88 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 89 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 90 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 91 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 92 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 93 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 94 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 95 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 96 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 97 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 98 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 99 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 100 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 101 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 102 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 103 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 1 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 2 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 3 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 4 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 5 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 6 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 7 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 8 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 9 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 10 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 11 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 12 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 13 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 14 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 15 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 16 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 17 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 18 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 19 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 20 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 21 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 22 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 23 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 24 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 25 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 26 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 27 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 28 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 29 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 30 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 31 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 32 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 33 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 34 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 35 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 36 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 37 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 38 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 39 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 40 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 41 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 42 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 43 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 44 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 45 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 46 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 47 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 48 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 49 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 50 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 51 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 52 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 53 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 54 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 55 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 56 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 57 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 58 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 59 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 60 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 61 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 62 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 63 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 64 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 65 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 66 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 67 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 68 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 69 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 70 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 71 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 72 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 73 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 74 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 75 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 76 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 77 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 78 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 79 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 80 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 81 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 82 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 83 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 84 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 85 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 86 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 87 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 88 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 89 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 90 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 91 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 92 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 93 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 94 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 95 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 96 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 97 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 98 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 99 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 100 ==================================
+ Tipo de Operação: insert
+ 
+ 
+ Log 101 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 102 ==================================
+ Tipo de Operação: search
+ 
+ 
+ Log 103 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 104 ==================================
+ Tipo de Operação: getAll
+ 
+ 
+ Log 105 ==================================
+ Tipo de Operação: getAll
+ 
+ 
