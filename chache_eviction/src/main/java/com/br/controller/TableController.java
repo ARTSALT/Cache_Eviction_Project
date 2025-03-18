@@ -1,6 +1,9 @@
 package com.br.controller;
 
 import java.io.IOException;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
 import java.util.List;
 
 import com.br.App;
@@ -27,7 +30,7 @@ public class TableController {
     @FXML Text number;
     
     @FXML
-    public void initialize() {
+    public void initialize() throws Exception {
         code.setCellValueFactory(new PropertyValueFactory<>("code"));
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         description.setCellValueFactory(new PropertyValueFactory<>("description"));
@@ -45,19 +48,24 @@ public class TableController {
         table.getItems().setAll(e);
     }
 
-    private void loadAll() {
+    private void loadAll() throws Exception {
         try {
             Packet<?> list = ConnectionProxy.sendRequest("getAll", null);
             if (list.getPurpose().equals("1")) {
                 updateTable((List<ServiceOrder>) list.getContent());
             }
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
+        } /*catch (SocketException e) {
+            System.out.println("Tentando Reconexão");
+            App.tryConnection(InetAddress.getLocalHost().getHostAddress(), 12345);
+            ConnectionProxy connection = new ConnectionProxy(App.enderecoProxy[0],
+                    Integer.parseInt(App.enderecoProxy[1]), "admin", "admin");
+        }*/ catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
     @FXML
-    private void search() {
+    private void search() throws Exception {
         if (searchBar.getText().isEmpty()) {
             loadAll();
         } else {
@@ -68,7 +76,8 @@ public class TableController {
                     updateTable((ServiceOrder) result.getContent());
                 }
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+                e.printStackTrace();
+                //System.out.println(e.getMessage());
             }
         }
     }
@@ -87,7 +96,8 @@ public class TableController {
                     loadAll();
                 }
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+                e.printStackTrace();
+                //System.out.println(e.getMessage());
             }
         }
     }

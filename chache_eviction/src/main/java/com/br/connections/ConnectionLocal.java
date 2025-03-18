@@ -26,12 +26,10 @@ public class ConnectionLocal {
 
             System.out.println("Conectado com o servidor de Localização ");
 
-            String msg = "01";
-            saida.writeUTF(msg);
-            saida.flush();
-
             String ip_p = entrada.readUTF();
             String porta_p = entrada.readUTF();
+
+            System.out.println(porta_p);
 
             return new String[]{ip_p, porta_p};
         } catch (Exception e) {

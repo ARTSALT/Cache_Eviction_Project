@@ -1,7 +1,12 @@
 package com.br.servidorDeProxy;
 
+import com.br.entity.ArchiveManager;
+
 public class ProxyApp {
     public static void main(String[] args) {
-        Proxy proxy = new Proxy(12346);
+        int porta = 12346;
+        new Proxy(porta);
+        ArchiveManager writer = new ArchiveManager();
+        writer.clear("servidorDeProxy/log_proxy_" + porta + ".txt");
     }
 }

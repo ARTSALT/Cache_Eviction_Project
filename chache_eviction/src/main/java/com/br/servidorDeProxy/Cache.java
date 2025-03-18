@@ -2,12 +2,18 @@ package com.br.servidorDeProxy;
 
 import com.br.entity.ServiceOrder;
 
+import java.rmi.RemoteException;
 import java.util.LinkedList;
 
-class Cache {
-    public static LinkedList<ServiceOrder> cache = new LinkedList<>();
+class Cache implements CacheInterface {
+    public LinkedList<ServiceOrder> cache = new LinkedList<>();
 
-    public static synchronized void insert(ServiceOrder order) {
+    public Cache() throws RemoteException {
+        super();
+    }
+
+    @Override
+    public synchronized void insert(ServiceOrder order) {
         if (cache.size() == 30) {
             cache.remove();
             cache.add(order);
@@ -18,13 +24,15 @@ class Cache {
         //Replicação por Inundação
     }
 
-    public static synchronized void remove(ServiceOrder order) {
+    @Override
+    public synchronized void remove(ServiceOrder order) {
         cache.remove(order);
 
         //Replicação por Inuncação
     }
 
-    public static synchronized ServiceOrder search(ServiceOrder order) {
+    @Override
+    public synchronized ServiceOrder search(ServiceOrder order) {
         if (cache.isEmpty()) {
             // Miss
             return null;
@@ -41,24 +49,31 @@ class Cache {
         return null;
     }
 
-    public static synchronized void subistitute(ServiceOrder order) {
+    @Override
+    public synchronized boolean substitute(ServiceOrder order) {
         for (ServiceOrder so : cache) {
             if (so.getCode() == order.getCode()) {
                 cache.set(cache.indexOf(so), order);
-                return;
-            }
-        }
-
-        //Replicação por Inuncação
-    }
-
-    public static synchronized boolean contains(ServiceOrder order) {
-        for (ServiceOrder so : cache) {
-            if (so.getCode() == order.getCode()) {
                 return true;
             }
         }
 
         return false;
+
+        //Replicação por Inuncação
     }
+
+    @Override
+    public boolean contains(ServiceOrder order) throws RemoteException {
+        for (ServiceOrder so : cache) {
+            if (so.getCode() == order.getCode()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    @Override
+    public void ping() throws RemoteException {}
 }

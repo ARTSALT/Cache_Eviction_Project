@@ -3,6 +3,7 @@ module com.br {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
+    requires java.rmi;
 
     opens com.br.controller to javafx.fxml;
     opens com.br.entity to javafx.base;
@@ -10,5 +11,7 @@ module com.br {
     exports com.br;
     exports com.br.connections;
     exports com.br.entity;
+    exports com.br.servidorDeProxy;
+    exports com.br.servidorDeAplicacao;
     opens com.br.connections to javafx.fxml;
 }

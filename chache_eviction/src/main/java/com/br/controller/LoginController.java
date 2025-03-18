@@ -18,7 +18,7 @@ public class LoginController {
     PasswordField password;
 
     @FXML
-    public static Text error;
+    public Text error;
     
     @FXML
     private void login() throws IOException{
@@ -27,5 +27,7 @@ public class LoginController {
 
         ConnectionProxy conection = new ConnectionProxy(App.enderecoProxy[0],
                 Integer.parseInt(App.enderecoProxy[1]), nome, senha);
+
+        error.setVisible(true);
     }
 }

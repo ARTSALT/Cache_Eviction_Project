@@ -4,7 +4,7 @@ public class Logger {
 
     static int counter = 0;
     
-    public static void writeLog(String opType, String path, String nome) {
+    public static synchronized void writeLog(String opType, String path, String nome) {
         counter++;
 
         ArchiveManager writer = new ArchiveManager();
@@ -21,7 +21,7 @@ public class Logger {
             case "10" -> "search";
             case "11" -> "update";
             case "000" -> "getAll";
-            default -> "0";
+            default -> "failure";
         };
     }
 }

@@ -9,7 +9,9 @@ import com.br.entity.ServiceOrder;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.net.InetAddress;
 import java.net.Socket;
+import java.net.SocketException;
 
 public class ConnectionProxy {
 
@@ -50,8 +52,6 @@ public class ConnectionProxy {
                 entrada.close();
                 client.close();
 
-                LoginController.error.setVisible(true);
-                App.tryConnection("localhost", 12345);
                 return;
             }
 
@@ -66,10 +66,20 @@ public class ConnectionProxy {
         }
     }
 
-    public static Packet<?> sendRequest(String code, ServiceOrder order) throws IOException, ClassNotFoundException {
-        Packet<ServiceOrder> datagram = new Packet<>(code, order);
-        saida.writeObject(datagram);
-        saida.flush();
-        return (Packet<?>) entrada.readObject();
+    public static Packet<?> sendRequest(String code, ServiceOrder order) throws Exception {
+        try {
+            saida.writeObject(new Packet<>(code, order));
+            saida.flush();
+            return (Packet<?>) entrada.readObject();
+        } catch (SocketException e) {
+            System.out.println("Tentando Reconexão");
+            App.tryConnection(InetAddress.getLocalHost().getHostAddress(), 12345);
+            ConnectionProxy connection = new ConnectionProxy(App.enderecoProxy[0],
+                    Integer.parseInt(App.enderecoProxy[1]), "admin", "admin");
+
+            saida.writeObject(new Packet<>(code, order));
+            saida.flush();
+            return (Packet<?>) entrada.readObject();
+        }
     }
 }

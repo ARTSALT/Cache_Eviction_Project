@@ -18,7 +18,7 @@ public class CadastroController {
     @FXML Text error;
 
     @FXML
-    private void create() throws IOException, ClassNotFoundException {
+    private void create() throws Exception {
         String nome = name.getText();
         String descricao = description.getText();
         if((!nome.isEmpty() && !nome.equals("⠀")) && (!descricao.isEmpty() && !descricao.equals("⠀"))) {

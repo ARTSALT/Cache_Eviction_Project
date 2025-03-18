@@ -25,7 +25,7 @@ public class EditController {
     }
 
     @FXML
-    private void edit() throws IOException, ClassNotFoundException {
+    private void edit() throws Exception {
         String nome = name.getText();
         String descricao = description.getText();
 

@@ -2,29 +2,38 @@ package com.br.servidorDeAplicacao;
 
 import com.br.entity.ServiceOrder;
 
+import java.rmi.RemoteException;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-class Database {
-    public static LinkedHashMap<Integer, ServiceOrder> database = new LinkedHashMap<>();
+class Database implements DatabaseInterface {
+    public LinkedHashMap<Integer, ServiceOrder> database = new LinkedHashMap<>();
 
-    public static synchronized void insert(ServiceOrder order) {
+    public synchronized void insert(ServiceOrder order) {
         database.put(order.getCode(), order);
     }
 
-    public static synchronized void remove(ServiceOrder order) {
+    public synchronized void remove(ServiceOrder order) {
         database.remove(order.getCode());
     }
 
-    public static synchronized ServiceOrder search(ServiceOrder order) {
+    public synchronized ServiceOrder search(ServiceOrder order) {
         return database.get(order.getCode());
     }
 
-    public static synchronized void subistitute(ServiceOrder order) {
+    @Override
+    public synchronized void updateDatabase(List<ServiceOrder> orders) throws RemoteException {
+        database.clear();
+        for (ServiceOrder order : orders) {
+            database.put(order.getCode(), order);
+        }
+    }
+
+    public synchronized void substitute(ServiceOrder order) {
         database.put(order.getCode(), order);
     }
 
-    public static synchronized List<ServiceOrder> getAll() {
+    public synchronized List<ServiceOrder> getAll() {
         return List.copyOf(database.values());
     }
 }
