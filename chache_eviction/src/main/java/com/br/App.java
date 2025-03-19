@@ -32,6 +32,7 @@ public class App extends Application {
     {return stage;}
 
     public static void main (String[] args) throws Exception {
+        // TODO Sempre trocar o IP de localização
         tryConnection(InetAddress.getLocalHost().getHostAddress(), 12345);
 
         launchApp(args);

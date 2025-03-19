@@ -54,12 +54,7 @@ public class TableController {
             if (list.getPurpose().equals("1")) {
                 updateTable((List<ServiceOrder>) list.getContent());
             }
-        } /*catch (SocketException e) {
-            System.out.println("Tentando Reconexão");
-            App.tryConnection(InetAddress.getLocalHost().getHostAddress(), 12345);
-            ConnectionProxy connection = new ConnectionProxy(App.enderecoProxy[0],
-                    Integer.parseInt(App.enderecoProxy[1]), "admin", "admin");
-        }*/ catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

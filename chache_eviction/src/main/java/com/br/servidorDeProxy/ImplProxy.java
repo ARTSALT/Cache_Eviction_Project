@@ -46,6 +46,7 @@ public class ImplProxy implements Runnable {
         socketCliente = cliente;
         this.porta = porta;
         this.cache = cache;
+        //TODO talvez necessite de mudança
         ip_app = InetAddress.getLocalHost().getHostAddress();
     }
 
@@ -106,9 +107,17 @@ public class ImplProxy implements Runnable {
             Registry registro1 = LocateRegistry.getRegistry(newPortas[0]);
             Registry registro2 = LocateRegistry.getRegistry(newPortas[1]);
 
-            //TODO no caso de um proxy estar off enquanto a conexão se inicia, a conexão não pode ser estabelecida
-            cacheRemota_1 = (CacheInterface) registro1.lookup("CacheService");
-            cacheRemota_2 = (CacheInterface) registro2.lookup("CacheService");
+            try {
+                cacheRemota_1 = (CacheInterface) registro1.lookup("CacheService");
+            } catch (ConnectException e) {
+                System.out.println("Uma cache não pode ser acessada");
+            }
+
+            try {
+                cacheRemota_2 = (CacheInterface) registro2.lookup("CacheService");
+            } catch (ConnectException e) {
+                System.out.println("Uma cache não pode ser acessada");
+            }
 
             System.out.println("Registros RMI conectados");
 
@@ -246,7 +255,7 @@ public class ImplProxy implements Runnable {
         saidaApp.flush();
 
         if (cache.substitute(request.getContent())) {
-            Logger.writeLog("11", "servidorDeProxy/", "proxy_" + cont);
+            Logger.writeLog("11", "servidorDeProxy/", "proxy_" + porta);
         }
         if (isRegistryUp(cacheRemota_1)) {
             if (cacheRemota_1.substitute(request.getContent()))
@@ -285,7 +294,7 @@ public class ImplProxy implements Runnable {
         try {
             cache.ping();
             return true;
-        } catch (RemoteException e) {
+        } catch (Exception e) {
             return false;
     }
     }

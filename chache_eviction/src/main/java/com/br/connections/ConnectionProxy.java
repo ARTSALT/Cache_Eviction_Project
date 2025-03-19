@@ -12,6 +12,7 @@ import java.io.ObjectOutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.SocketException;
+import java.util.List;
 
 public class ConnectionProxy {
 
@@ -19,6 +20,7 @@ public class ConnectionProxy {
     public static ObjectOutputStream saida;
     public static ObjectInputStream entrada;
 
+    static String ip;
     String nome;
     String senha;
     boolean auth;
@@ -26,6 +28,7 @@ public class ConnectionProxy {
     public ConnectionProxy(String ip, int porta, String nome, String senha) {
         try {
             client = new Socket(ip, porta);
+            this.ip = ip;
             this.nome = nome;
             this.senha = senha;
 
@@ -55,8 +58,12 @@ public class ConnectionProxy {
                 return;
             }
 
-            for (int i = 1; i <= 100; i++) {
-                sendRequest("insert", new ServiceOrder(String.valueOf(i), String.valueOf(i)));
+            List<ServiceOrder> check = (List<ServiceOrder>) sendRequest("check", null).getContent();
+
+            if (check.isEmpty()) {
+                for (int i = 1; i <= 100; i++) {
+                    sendRequest("insert", new ServiceOrder(String.valueOf(i), String.valueOf(i)));
+                }
             }
 
             App.telaTabela();
@@ -73,7 +80,7 @@ public class ConnectionProxy {
             return (Packet<?>) entrada.readObject();
         } catch (SocketException e) {
             System.out.println("Tentando Reconexão");
-            App.tryConnection(InetAddress.getLocalHost().getHostAddress(), 12345);
+            App.tryConnection(ip, 12345);
             ConnectionProxy connection = new ConnectionProxy(App.enderecoProxy[0],
                     Integer.parseInt(App.enderecoProxy[1]), "admin", "admin");
 
